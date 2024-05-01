@@ -1,0 +1,859 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root{
+    --bg-color:rgb(220, 120, 11);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('../fonts/roboto/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/roboto/Roboto-Medium.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Philosopher';
+    src: url('../fonts/roboto/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/roboto/Roboto-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('/fonts/philosopher/Philosopher-Bold.woff2') format('woff2'),
+        url('/fonts/philosopher/Philosopher-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+
+body{
+    font-family:Philosopher;
+    font-family: Roboto;
+}
+
+
+.site-header {
+    padding: 30px 150px 16px 150px;
+}
+
+.container-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+
+.header-card-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 35px;
+}
+
+.navbar-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 41px;
+}
+
+
+.link{
+    color: rgb(21, 12, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    opacity: 0.6;
+    -webkit-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    transition: color 0.3s linear;
+}
+.link:hover{
+    color:var(--bg-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+.link:active{
+    color: rgb(47, 224, 11);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+
+
+.card-btn {
+    width: 156px;
+    height: 46px;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+                    /* M A I N */
+
+
+/* HERO SECTION */
+
+/* .site-main{
+    padding: 0 150px;
+} */
+
+.hero-section {
+    margin-top: 16px;
+}
+
+.hero-page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 115px;
+}
+
+.cook-wrapper-title {
+   width: 555px;
+}
+.cook-title {
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: 0%;
+    margin-bottom: 42px;
+}
+
+.cook-text {
+    color: rgb(21, 12, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 50px;
+}
+.cook-btn {
+    width: 358px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.left-btn {
+    width: 158px;
+    padding: 21px;
+    border-radius: 5px;
+    background: rgb(220, 120, 11);
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+
+}
+
+
+.right-btn {
+    padding: 21px;
+    width: 170px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1.5px solid var(--bg-color);
+    border-radius: 5px;
+    opacity: 0.1;
+    cursor: pointer;
+    color: var(--bg-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+
+
+   /* FEATURES-SECTION */
+
+.features-content{
+    padding: 0 30px;
+    margin-bottom: 123.73px; 
+}
+
+
+.features-content-title {
+    width: 352px;
+    margin: 0 auto;
+    text-align: center;
+}
+.features-strong {
+    color: rgb(220, 120, 11);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 20%;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.features-text {
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    margin-bottom: 44px;
+}
+.features-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 90px;
+}
+
+.features-item-list{
+    text-align: center;
+}
+
+
+
+.icon-title {
+    margin-top: 33px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+.icon-text{
+    margin-top: 15px;
+    color: rgb(21, 12, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+
+/* ABOUT-SECTION */
+
+
+
+
+.about-page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 98px;
+}
+
+.about-strong {
+    margin-bottom: 10px;
+    color: rgb(220, 120, 11);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 20%;
+    text-align: left;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.about-title {
+    margin-bottom: 30px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.63px;
+    letter-spacing: 0%;
+}
+.about-text {
+    margin-bottom: 29px;
+    color: rgb(21, 12, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+.about-btn {
+    width: 142px;
+    height: 42px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: var(--bg-color);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+
+
+/* MENU-SECTION */
+
+
+
+
+.menu-content-wrapper {
+    width: 748px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 115.27px;
+}
+.menu-strong {
+    margin-bottom: 9px;
+    color: var(--bg-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 20%;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.menu-title {
+    margin-bottom: 25px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.menu-content-item {
+  
+    display: -webkit-box;
+  
+    display: -ms-flexbox;
+  
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between ;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap:30px;
+}
+.content-item-list {
+    /* border: 0.5px solid gray; */
+    border-radius:5px;
+}
+
+.list-content {
+    width: 330px;
+   
+}
+.list-content-title {
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 20px;
+}
+.list-img{
+ margin-bottom: 7px;
+}
+
+
+.title-strong {
+    color: rgb(21, 12, 1);
+font-family: Philosopher;
+font-size: 25px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+}
+
+.price {
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+.list-content-text {
+    width: 300px;
+}
+.text-p {
+    margin-bottom: 20px;
+    color: rgb(21, 12, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+.button-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.plus-btn {
+    width: 36px;
+    height: 34px;
+    margin-bottom: 61px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: var(--bg-color);
+    cursor: pointer;
+
+}
+
+.learn-button{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 187px;
+}
+
+.learn-btn {
+    width: 142px;
+    height: 42px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid var(--bg-color) ;
+    border-radius: 5px;
+    /* opacity: 0.1; */
+    color: rgb(220, 120, 11);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+
+}
+
+
+/* TAKE-AWAY-SECTION */
+
+.take-away-section {
+    width: 100%;
+    background-color: #FDF9F5;
+   margin-bottom: 213px;
+    
+}
+
+.take-away-page {
+    padding: 56px 203.01px 45px 241px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 40px;
+}
+.left-take-away-page {
+    width: 555px;
+}
+.take-away-strong {
+    margin-bottom: 5px;
+    color: rgb(220, 120, 11);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 20%;
+    text-align: left;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.take-away-title {
+    margin-bottom: 29px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.63px;
+    letter-spacing: 0%;
+}
+.take-away-text {
+    margin-bottom: 39px;
+    color: rgb(21, 12, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%; 
+}
+.take-away-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px;
+}
+.apple-btn {
+    width: 163px;
+    height: 48px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: rgb(21, 12, 1);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+    gap: 5px;
+    
+}
+
+.play-market-btn {
+    width: 179px;
+    height: 48px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1.5px solid rgb(21, 12, 1);
+    border-radius: 5px;
+    /* opacity: 0.1; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+    gap: 5px;
+
+}
+
+
+/* TESTIMONIAL */
+
+
+.testimonial-section{
+    padding: 0 345px;
+}
+
+
+.title-card { 
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.testimonial-strong {
+    color: var(--bg-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 20%;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 12px;
+}
+.testimonial-title {
+    color: rgb(0, 0, 0);
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 23px;
+    
+}
+.testimonial-text {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-bottom: 73px;
+
+}
+.testimonial-content-wrapper {
+        width: 506px;
+        margin: 0 auto;
+        text-align: center;
+}
+
+.reynoso-comment {
+    margin-top: 41px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%; 
+    margin-bottom: 20px;
+}
+.full-name {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+.job {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 120px;
+}
+
+
+
+.forum-card {
+    padding: 256px 345px 117px 345px;
+    background-color: #FDF9F5;
+}
+
+
+.container-forum {
+    width:750px ;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.forum-strong {
+    margin-bottom: 15px;
+    color: var(--bg-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 20%;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.forum-strong-title {
+    width: 100%;
+    margin-bottom: 46px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.6px;
+    letter-spacing: 0%;
+    
+}
+
+
+.feedback-input{
+    width: 500px;
+    height: 75px;
+    border: 1px solid transparent;
+    padding: 34px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40.6px;
+    letter-spacing: 0%;
+}
+
+
+
+.input-button {
+    width: 156px;
+    height: 75px;
+    border-radius:10px ;
+    background-color: var(--bg-color);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40.6px;
+    letter-spacing: 0%;
+    border: 1px solid transparent;
+}
+
+
+            /* FOOTER */
+
+.site-footer{
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    padding: 137px 150px 84px 150px;
+}
+
+
+
+.footer-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.logo-part-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+}
+.footer-item {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    /* opacity: 0.7; */
+}
+.footer-item-logo {
+    margin-bottom: 17px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    /* opacity: 0.7; */
+}
+.footer-item-title {
+    margin-bottom: 26px;
+    color: rgb(255, 255, 255);
+    font-family: Philosopher;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    cursor: pointer;
+    -webkit-transition: all 0.3 linear;
+    -o-transition: all 0.3 linear;
+    transition: all 0.3 linear;
+}
+.footer-item-title:hover{
+    color:var(--bg-color);
+}
